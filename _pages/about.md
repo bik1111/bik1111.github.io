@@ -15,4 +15,3 @@ Beyond academia, I find joy in contributing to others, pursuing perosnal growth,
 Recent News
 ======
 **Apr 2, 2024**
-Thrilled to announce my acceptance into UNC’s CS Master’s program, commencing Fall 2024.
