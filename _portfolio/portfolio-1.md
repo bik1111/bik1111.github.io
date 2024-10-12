@@ -1,6 +1,6 @@
 ---
-title: "Batshu"
-excerpt: "Incentivized Black Box Video Reporting and Sharing Platform <br/><br/> <img src='/images/batshu.png'>"
+title: "Incentivized Black Box Video Reporting and Sharing"
+excerpt: "Sep. 2023 - Nov. 2023 <br/><br/> <img src='/images/batshu.png'>"
 collection: portfolio
 ---
 
