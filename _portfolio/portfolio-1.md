@@ -1,9 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "“Incentivized Black Box Video Reporting and Sharing Platform”"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/batshu.png'>"
 collection: portfolio
 ---
 
+BatShu | A platform for sharing and trading dashcam footage, where rewards incentivize voluntary video submissions. Users can request or provide video content as needed. [GitHub](https://github.com/bik1111/BatShu-backend)
 
-
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.
+- Led and mentored a university freshman while managing the entire project from start to finish.
+- Integrated AWS S3, Lambda, MediaConvert, and CloudFront to build an efficient, automated cloud-based streaming pipeline for optimized HLS video conversion and global delivery.
+- Developed a license plate blurring feature using an [open-source]((https://github.com/tfaehse/DashcamCleaner)) YOLOv8-based tool, leveraging advanced object detection, tracking, and instance segmentation capabilities.
+- Built a CI/CD pipeline with GitHub Actions and Docker, enabling seamless automated deployment to AWS via GitHub Container Registry for consistent and efficient production updates.
