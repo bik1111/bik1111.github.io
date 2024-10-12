@@ -7,10 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm Jincheol Jung. I received my Bachelor's degree in Software Convergence from Kyung Hee University. I worked as a research assistant in the [Operating System LAB](https://ss.korea.ac.kr/) led by Professor Gyeongsik Yang. I have also collaborated with Professor Changho Jhin, conducting research on smart healthcare in [BIGDATA LAB]( http://allbigdata.khu.ac.kr/). My research experiences motivated me to build and leverage cloud environments to make a positive impact. I'm inenterested in container virtualization/orchestration and Federated Learning.
+Hello, I am Jincheol Jung, a student majoring in Software Convergence at Kyung Hee University. I have worked as a research intern in the [System software LAB](https://ss.korea.ac.kr/), where I conducted research on container virtualization, cloud orchestration, and custom metric-based scaling techniques. Additionally, I gained hands-on experience in real-time data processing through research in the [BIGDATA LAB]( http://allbigdata.khu.ac.kr/) on smart healthcare applications.
 
-Beyond academia, I find joy in contributing to others, pursuing perosnal growth, playing tennis and running. Sprots and self-improvement are a huge part of my life.
-
+My research focuses on optimizing resource management across diverse application environments using federated learning, with the aim of enhancing cloud system performance and providing efficient scaling solutions. In the future, I hope to contribute to solving real-world problems in cloud-based distributed systems, making a positive impact in fields like energy and healthcare. Building on these experiences and my vision, I am eager to leverage advanced technologies to drive meaningful change.
 
 Recent News
 ======
