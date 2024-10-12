@@ -1,6 +1,6 @@
 ---
-title: "“Incentivized Black Box Video Reporting and Sharing Platform”"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/batshu.png'>"
+title: "Batshu"
+excerpt: "Incentivized Black Box Video Reporting and Sharing Platform<br/><img src='/images/batshu.png'>"
 collection: portfolio
 ---
 
