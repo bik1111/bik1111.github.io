@@ -47,19 +47,26 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% endif %}
-
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        {% assign counter = 1 %}
+        {% for publication in site.publications %}
+          <h3>{{ counter }}. <a href="{{ publication.url }}">{{ publication.title }}</a></h3>
+          <p>Published in <i>{{ publication.venue }}</i>, {{ publication.date | date: "%Y" }}</p>
+          <p><strong>{{ publication.excerpt }}</strong></p>
+          {% if publication.citation and publication.paperurl and publication.slidesurl %}
+            <p>Recommended citation: {{ publication.citation }}<br /><a href="{{ publication.paperurl }}">Download Paper</a> | <a href="{{ publication.slidesurl }}">Download Slides</a></p>
+          {% elsif publication.citation and publication.paperurl %}
+            <p>Recommended citation: {{ publication.citation }}<br /><a href="{{ publication.paperurl }}">Download Paper</a></p>
+          {% elsif publication.citation and publication.slidesurl %}
+            <p>Recommended citation: {{ publication.citation }}<br /><a href="{{ publication.slidesurl }}">Download Slides</a></p>
+          {% elsif publication.citation %}
+            <p>Recommended citation: {{ publication.citation }}</p>
+          {% elsif publication.paperurl %}
+            <p><a href="{{ publication.paperurl }}">Download Paper</a></p>
+          {% elsif publication.slidesurl %}
+            <p><a href="{{ publication.slidesurl }}">Download Slides</a></p>
+          {% endif %}
+          {% assign counter = counter | plus: 1 %}
+        {% endfor %}
       </section>
 
       <footer class="page__meta">
@@ -79,7 +86,6 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       {% if site.data.ui-text[site.locale].related_label %}
