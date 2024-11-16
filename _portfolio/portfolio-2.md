@@ -8,7 +8,7 @@ collection: portfolio
 
 ![Danawa GIF](https://github.com/bik1111/danawa/assets/76617139/e71b51cf-ee16-4486-b223-9669356d1081)
 
-Danawa | A platform for sharing and trading dashcam footage, where rewards incentivize voluntary video submissions. Users can request or provide video content as needed. [GitHub](https://github.com/bik1111/danawa)
+Danawa | A review-based recommendation system designed to help people struggling with the overwhelming number of products in the selection and purchasing process [GitHub](https://github.com/bik1111/danawa)
 
 - Performed web scraping of product names, prices, specifications, and reviews from Naver Shopping Mall using Selenium and BeautifulSoup.
 - Utilized AWS services including ECR, ECS (Fargate), and DynamoDB for service deployment.
