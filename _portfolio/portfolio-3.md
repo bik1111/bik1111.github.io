@@ -4,9 +4,9 @@ excerpt: "Dec. 2022 - Jan. 2023 <br/><br/> <img src='/images/bookmark.png' style
 collection: portfolio
 ---
 
-Bookmark | A mobile app service combining reading and community features, designed to enhance modern individuals’ reading habits [GitHub](https://github.com/BookMark-Oneline/BookMark_iOS)
+Bookmark | A mobile app service combining reading and community features, designed to enhance modern individuals’ reading habits. [GitHub](https://github.com/BookMark-Oneline/BookMark_iOS)
 
-<br>
+
 <img src='/images/bookmark.png' alt="Bookmark Image">
 
 - Led the backend team as Team Leader, demonstrating leadership in API design, development, and ERD creation.
