@@ -1,6 +1,6 @@
 ---
 title: "Bookmark: A mobile app service designed to enhance modern individuals’ reading habits"
-excerpt: "Dec. 2022 - Jan. 2023 <br/><br/> <img src='/images/bookmark.png' style='width:300px; height:auto;'>"
+excerpt: "Dec. 2022 - Jan. 2023 <br/><br/> <img src='/images/bookmark.png' style='width:500px'>"
 collection: portfolio
 ---
 
