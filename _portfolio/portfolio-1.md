@@ -1,5 +1,5 @@
 ---
-title: "Incentivized Black Box Video Reporting and Sharing"
+title: "A Reward-Based Platform for Sharing Dashcam Videos"
 excerpt: "Sep. 2023 - Nov. 2023 <br/><br/> <img src='/images/batshu.png'>"
 collection: portfolio
 ---
