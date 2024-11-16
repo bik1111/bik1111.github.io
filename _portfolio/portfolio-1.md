@@ -1,6 +1,6 @@
 ---
 title: "A Reward-Based Platform for Sharing Dashcam Videos"
-excerpt: "Sep. 2023 - Nov. 2023 <br/><br/> <img src='/images/batshu.png'>"
+excerpt: "Sep. 2023 - Nov. 2023 <br/><br/> <img src='/images/batshu.png' style='width:500px'>"
 collection: portfolio
 ---
 
