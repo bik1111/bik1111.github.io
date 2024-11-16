@@ -1,7 +1,7 @@
 ---
 title: "Danawa: Natural Language-Based Laptop Recommendation System"
 excerpt: |
-  Jan. 2023 - Feb. 2023 <br/>
+  Jan. 2023 - Feb. 2023 <br/><br/>
   <img src="https://github.com/bik1111/danawa/assets/76617139/e71b51cf-ee16-4486-b223-9669356d1081" alt="Danawa GIF" style="max-width: 100%; height: auto;">
 collection: portfolio
 ---
