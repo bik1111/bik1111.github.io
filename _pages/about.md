@@ -127,22 +127,19 @@ My research interests include cloud/edge computing, learning-based resource allo
   <div class="sidebar">
     <h2>News</h2>
     <div class="news-item">
-      <p><strong>Aug 2024:</strong> Joined RPI as Assistant Professor.</p>
+      <p><strong>Feb 2025:</strong> Presented Federated Learning and RAG Integration at ICAIIC'25.</p>
     </div>
     <div class="news-item">
-      <p><strong>Aug 2024:</strong> Serving as TPC for Mobicom'25, IEEE MSN'24, and IEEE ICASSP'25.</p>
+      <p><strong>Nov 2024:</strong> Published Performance Analysis of Metric-Based Scaling at ACK'24 </p>
     </div>
     <div class="news-item">
-      <p><strong>Mar 2024:</strong> Presented BeamArmor at Hotmobile'24.</p>
+      <p><strong>June 2024:</strong> Published gRPC and ZeroMQ Comparison for Chat Services at KIISE'24. </p>
     </div>
     <div class="news-item">
-      <p><strong>Mar 2023:</strong> Hotmobile'23 Best Poster Runner-up awarded on delay-phased array research.</p>
+      <p><strong>Dec 2023 - Sep 2024:</strong> Joined the System Software Lab as an intern. Worked on projects related to container orchestration and resource allocation/scaling. </p>
     </div>
     <div class="news-item">
-      <p><strong>Jan 2023:</strong> Infocom'23 paper accepted on mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks.</p>
-    </div>
-    <div class="news-item">
-      <p><strong>Jun 2022 - Aug 2022:</strong> Joined VMWare for summer internship. Worked on developing intelligent applications on VMWare RIC.</p>
+      <p><strong>Dec 2022 - Feb 2023:</strong> Joined the BIGDATA Lab as an intern. Worked on data extraction and analysis using Azure Kinect DK. </p>
     </div>
   </div>
 </div>
