@@ -16,8 +16,7 @@ main:
     url: /portfolio/
 
   - title: "Publications"
-    url: /publications/
-
+    url: https://scholar.google.com/citations?hl=ko&user=cyI9my8AAAAJ&view_op=list_works&gmla=AFix5MYXTNgKKHVwXtvkKlQqpqoZl34x8w-uIWtUsg0e_cJubtRUFHCGcwKPfcgDPgY-7AasWKR7-yni-GHtIuoL8WHMENphrdpdiDy98eNfCfmegrt4-EjVZQ
 
 #  - title: "Talks"
 #    url: /talks/
