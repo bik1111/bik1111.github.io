@@ -11,61 +11,63 @@ Hello, I am Jincheol Jung. I am a student majoring in Software Convergence at Ky
 
 My research interests include cloud/edge computing, learning-based resource allocation and optimization, and federated learning. I aim to build intelligent cloud platform systems capable of meeting the performance requirements of next-generation services such as autonomous driving, automation, and AR/VR.
 
-## Research Projects
 
 <style>
   .container {
     display: flex;
-    flex-direction: column; /* Research Projects는 세로로 쌓임 */
-    max-width: 1200px; /* 중앙 컨테이너의 최대 너비 */
+    justify-content: space-between; /* Research Projects와 Sidebar를 양옆으로 배치 */
+    max-width: 1400px; /* 전체 컨테이너의 최대 너비 */
     margin: 0 auto; /* 화면 가운데 정렬 */
     padding: 20px;
   }
 
   .main-content {
-    display: flex; /* 프로젝트들을 가로로 정렬 */
-    flex-wrap: wrap; /* 내용이 넘치면 다음 줄로 넘어감 */
-    gap: 30px; /* 프로젝트 간 간격 */
+    flex: 3; /* Research Projects가 더 넓게 표시되도록 설정 */
+    margin-right: 30px; /* Sidebar와의 간격 */
   }
 
   .project {
     display: flex;
     align-items: flex-start;
-    flex: 1 1 calc(50% - 30px); /* 50% 너비로 설정 (간격 제외) */
-    margin-bottom: 30px; /* 각 프로젝트 간 간격 */
+    gap: 20px; /* 이미지와 텍스트 사이 간격 */
+    margin-bottom: 40px; /* 프로젝트 간 간격 */
   }
 
   .project img {
-    max-width: 200px;
+    max-width: 250px; /* 이미지 크기 고정 */
     height: auto;
-    margin-right: 20px;
-    border-radius: 5px; /* 이미지 둥근 모서리 */
+    border-radius: 5px; /* 이미지 모서리를 둥글게 설정 */
   }
 
   .project-content {
-    flex: 1; /* 텍스트 영역이 넓게 표시되도록 설정 */
+    flex: 1; /* 설명 부분이 남은 공간을 차지 */
+    font-size: 16px; /* 텍스트 크기 */
+    line-height: 1.6; /* 텍스트 줄 간격 */
   }
 
   .sidebar {
-    position: fixed; /* 화면 오른쪽에 고정 */
-    top: 100px; /* 화면 상단에서의 거리 */
-    right: 20px; /* 화면 오른쪽에서의 거리 */
-    width: 300px; /* Sidebar 너비 */
+    flex: 1; /* Sidebar의 비율 */
+    max-width: 320px; /* Sidebar의 최대 너비 */
     background-color: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Sidebar를 화면에 고정 */
+    top: 20px; /* 상단에서 거리 */
   }
 
   .news-item {
     margin-bottom: 15px;
     font-size: 14px;
+    line-height: 1.4;
   }
 </style>
 
 <div class="container">
-  <h2>Research Projects</h2>
+  <!-- Main Content: Research Projects -->
   <div class="main-content">
+    <h2>Research Projects</h2>
+
     <div class="project">
       <img src="images/ACK-2024.png" alt="Metric-Based Scaling Project Image">
       <div class="project-content">
@@ -85,7 +87,6 @@ My research interests include cloud/edge computing, learning-based resource allo
       </div>
     </div>
 
-    <!-- Second Project -->
     <div class="project">
       <img src="images/FL.png" alt="Federated Learning Project Image">
       <div class="project-content">
@@ -103,7 +104,6 @@ My research interests include cloud/edge computing, learning-based resource allo
       </div>
     </div>
 
-    <!-- Third Project -->
     <div class="project">
       <img src="images/chat.png" alt="Chat Project Image">
       <div class="project-content">
@@ -122,27 +122,27 @@ My research interests include cloud/edge computing, learning-based resource allo
       </div>
     </div>
   </div>
-</div>
 
-<!-- Sidebar -->
-<div class="sidebar">
-  <h2>News</h2>
-  <div class="news-item">
-    <p><strong>Aug 2024:</strong> Joined RPI as Assistant Professor.</p>
-  </div>
-  <div class="news-item">
-    <p><strong>Aug 2024:</strong> Serving as TPC for Mobicom'25, IEEE MSN'24, and IEEE ICASSP'25.</p>
-  </div>
-  <div class="news-item">
-    <p><strong>Mar 2024:</strong> Presented BeamArmor at Hotmobile'24.</p>
-  </div>
-  <div class="news-item">
-    <p><strong>Mar 2023:</strong> Hotmobile'23 Best Poster Runner-up awarded on delay-phased array research.</p>
-  </div>
-  <div class="news-item">
-    <p><strong>Jan 2023:</strong> Infocom'23 paper accepted on mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks.</p>
-  </div>
-  <div class="news-item">
-    <p><strong>Jun 2022 - Aug 2022:</strong> Joined VMWare for summer internship. Worked on developing intelligent applications on VMWare RIC.</p>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>News</h2>
+    <div class="news-item">
+      <p><strong>Aug 2024:</strong> Joined RPI as Assistant Professor.</p>
+    </div>
+    <div class="news-item">
+      <p><strong>Aug 2024:</strong> Serving as TPC for Mobicom'25, IEEE MSN'24, and IEEE ICASSP'25.</p>
+    </div>
+    <div class="news-item">
+      <p><strong>Mar 2024:</strong> Presented BeamArmor at Hotmobile'24.</p>
+    </div>
+    <div class="news-item">
+      <p><strong>Mar 2023:</strong> Hotmobile'23 Best Poster Runner-up awarded on delay-phased array research.</p>
+    </div>
+    <div class="news-item">
+      <p><strong>Jan 2023:</strong> Infocom'23 paper accepted on mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks.</p>
+    </div>
+    <div class="news-item">
+      <p><strong>Jun 2022 - Aug 2022:</strong> Joined VMWare for summer internship. Worked on developing intelligent applications on VMWare RIC.</p>
+    </div>
   </div>
 </div>
