@@ -18,6 +18,8 @@ My research interests include cloud/edge computing, learning-based resource allo
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 40px; /* 간격 추가 */
+    padding: 20px; /* 전체 컨테이너의 내부 여백 설정 */
   }
   .main-content {
     flex: 3; /* Main content takes up 3 parts of the container */
@@ -27,21 +29,22 @@ My research interests include cloud/edge computing, learning-based resource allo
     flex: 1; /* Sidebar takes up 1 part of the container */
     max-width: 300px;
     background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px; /* 내부 여백 추가 */
+    border-radius: 8px; /* 둥근 모서리 추가 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
     position: sticky; /* Makes the sidebar fixed when scrolling */
     top: 20px; /* Adjusts the top spacing */
   }
   .project {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* 프로젝트 간 간격을 늘림 */
   }
   .project img {
     max-width: 200px;
     height: auto;
     margin-right: 20px;
+    border-radius: 5px; /* 이미지 둥글게 */
   }
   .news-item {
     margin-bottom: 15px;
@@ -52,7 +55,6 @@ My research interests include cloud/edge computing, learning-based resource allo
 <div class="container">
   <!-- Main Content: Research Projects -->
   <div class="main-content">
-    <h2>Research Projects</h2>
     <div class="project">
       <img src="images/ACK-2024.png" alt="Metric-Based Scaling Project Image">
       <div class="project-content">
