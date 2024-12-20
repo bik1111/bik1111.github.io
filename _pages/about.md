@@ -22,12 +22,12 @@ My research interests include cloud/edge computing, learning-based resource allo
     padding: 20px; /* 전체 컨테이너의 내부 여백 설정 */
   }
   .main-content {
-    flex: 3; /* Main content takes up 3 parts of the container */
+    flex: 4; /* Main content takes up 4 parts of the container (기존 3에서 증가) */
     margin-right: 20px; /* Adds spacing between main-content and sidebar */
   }
   .sidebar {
-    flex: 1; /* Sidebar takes up 1 part of the container */
-    max-width: 300px;
+    flex: 0.8; /* Sidebar takes up less space (기존 1에서 감소) */
+    max-width: 280px; /* 사이드바의 최대 너비를 조정 */
     background-color: #f9f9f9;
     padding: 15px; /* 내부 여백 추가 */
     border-radius: 8px; /* 둥근 모서리 추가 */
