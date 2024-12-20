@@ -7,83 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Jincheol Jung, a student majoring in Software Convergence at Kyung Hee University. During my time as a research intern at the [System software LAB](https://ss.korea.ac.kr/), I conducted studies on container virtualization/orchestration and custom metric-based scaling. Additionally, I gained practical experience in real-time data processing through research on smart healthcare applications at the [BIGDATA LAB]( http://allbigdata.khu.ac.kr/)
+# Hello, I am Jincheol Jung
+I am a student majoring in Software Convergence at Kyung Hee University. During my time as a research intern at the [System software LAB](https://ss.korea.ac.kr/), I conducted studies on container virtualization/orchestration and custom metric-based scaling. Additionally, I gained practical experience in real-time data processing through research on smart healthcare applications at the [BIGDATA LAB](http://allbigdata.khu.ac.kr/).
 
 My research interests include cloud/edge computing, learning-based resource allocation and optimization, and federated learning. I aim to build intelligent cloud platform systems capable of meeting the performance requirements of next-generation services such as autonomous driving, automation, and AR/VR.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jincheol Jung</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 20px;
-    }
-    h2 {
-      color: #333;
-      margin-bottom: 20px;
-    }
-    .container {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px; /* 간격 추가 */
-    }
-    .main-content {
-      width: 70%; /* 메인 콘텐츠 폭 */
-    }
-    .sidebar {
-      width: 28%; /* 사이드바 폭 */
-      padding: 10px;
-      border-left: 1px solid #ccc; /* 분리선 추가 */
-    }
-    .project {
-      display: flex;
-      align-items: flex-start; /* 위쪽으로 정렬 */
-      margin-bottom: 40px;
-    }
-    .project img {
-      max-width: 100%;
-      border-radius: 5px;
-    }
-    .project-content {
-      flex: 2;
-      margin-left: 20px;
-    }
-    .project-content h3 {
-      margin: 0 0 10px;
-    }
-    .project-content p {
-      margin: 5px 0;
-    }
-    .project-buttons a {
-      margin-right: 10px;
-      text-decoration: none;
-      color: white;
-      background-color: #007BFF;
-      padding: 5px 10px;
-      border-radius: 5px;
-    }
-    .project-buttons a:hover {
-      background-color: #0056b3;
-    }
-    .news-item {
-      margin-bottom: 15px;
-    }
-    .news-item p {
-      margin: 0;
-      font-size: 14px;
-      line-height: 1.4;
-    }
-  </style>
-</head>
-<body>
+## Research Projects
 
-<!-- Main Container -->
 <div class="container">
   <!-- Main Content: Research Projects -->
   <div class="main-content">
@@ -176,6 +106,3 @@ My research interests include cloud/edge computing, learning-based resource allo
     </div>
   </div>
 </div>
-
-</body>
-</html>
