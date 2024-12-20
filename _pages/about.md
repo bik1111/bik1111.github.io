@@ -6,6 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  p {
+    font-size: 14px; /* 원하는 크기로 설정 (예: 12px, 14px, small 등) */
+    line-height: 1.5; /* 줄 간격 조절 */
+  }
+</style>
 
 Hello, I am Jincheol Jung, a student majoring in Software Convergence at Kyung Hee University. During my time as a research intern at the [System software LAB](https://ss.korea.ac.kr/), I conducted studies on container virtualization/orchestration and custom metric-based scaling. Additionally, I gained practical experience in real-time data processing through research on smart healthcare applications at the [BIGDATA LAB]( http://allbigdata.khu.ac.kr/)
 
@@ -21,7 +27,7 @@ My research interests include cloud/edge computing, learning-based resource allo
     <div style="flex: 2; margin-left: 20px;">
       <h3>
         <strong>Performance Analysis of Metric-Based Scaling in Kubernetes Environments</strong>
-        <span style="color: orange;">[KIPS'24]</span>
+        <a href="https://kips.or.kr/ack2024/" target="_blank" style="color: orange; text-decoration: none;">[ICAIIC'25]</a>
       </h3>
       <p>
         <strong>Jincheol Jung</strong>
@@ -39,9 +45,6 @@ My research interests include cloud/edge computing, learning-based resource allo
       </div>
     </div>
   </div>
-</div>
-
-
 
   <!-- Second Project -->
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
@@ -51,7 +54,7 @@ My research interests include cloud/edge computing, learning-based resource allo
     <div style="flex: 2; margin-left: 20px;">
       <h3>
         <strong>Federated Learning and RAG Integration: A Scalable Approach for Medical Large Language Models</strong>
-        <span style="color: orange;">[ICAIIC'25]</span>
+        <a href="https://icaiic.org/" target="_blank" style="color: orange; text-decoration: none;">[ICAIIC'25]</a>
       </h3>
       <p>
         <strong>Jincheol Jung</strong>, Hongju Jeong, and Eui-Nam Huh
@@ -66,7 +69,6 @@ My research interests include cloud/edge computing, learning-based resource allo
   </div>
 </div>
 
-
   <!-- Third Project -->
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
     <div style="flex: 1;">
@@ -75,7 +77,7 @@ My research interests include cloud/edge computing, learning-based resource allo
     <div style="flex: 2; margin-left: 20px;">
       <h3>
         <strong>Performance Comparison Analysis of gRPC and zeroMQ for Efficient Library Selection in Chat Service Development</strong>
-        <span style="color: orange;">[KISSE'25]</span>
+        <a href="http://m.kiise.or.kr/academyEng/main/getContent.faEng?content_no=10&MENU_ID=020200" target="_blank" style="color: orange; text-decoration: none;">[ICAIIC'25]</a>
       </h3>
       <p>
         <strong>Jincheol Jung</strong>, Sungwon Lee
@@ -86,7 +88,7 @@ My research interests include cloud/edge computing, learning-based resource allo
       </p>
       <div style="margin-top: 10px;">
         <a href="files/chat.pdf" class="btn" style="margin-right: 10px;">PDF</a>
+        <a href="https://drive.google.com/file/d/1qC0XT3fMjy7yqZvTG9sH1nHAEo0xO28K/view?usp=sharing" class="btn" style="margin-right: 10px;">SLIDES</a>
       </div>
     </div>
   </div>
-</div>
