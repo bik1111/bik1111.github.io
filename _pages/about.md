@@ -18,33 +18,35 @@ My research interests include cloud/edge computing, learning-based resource allo
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 30px; /* 기존 40px에서 간격을 줄여 여유 공간 확보 */
-    padding: 20px; /* 컨테이너 내부 여백 */
+    gap: 40px; /* 간격 설정 */
+    padding: 20px; /* 전체 컨테이너의 내부 여백 설정 */
+    max-width: 1200px; /* 전체 컨테이너의 최대 너비 설정 */
+    margin: 0 auto; /* 중앙 정렬 */
   }
   .main-content {
-    flex: 3.5; /* Main content를 기존 3에서 3.5로 확장 */
-    margin-right: 15px; /* Main content와 Sidebar 간의 간격 축소 */
+    flex: 4; /* Main content takes up 4 parts of the container */
+    margin-right: 20px; /* Adds spacing between main-content and sidebar */
   }
   .sidebar {
-    flex: 1.2; /* Sidebar를 기존 1에서 1.2로 확장 */
-    max-width: 320px; /* Sidebar의 최대 너비를 기존 300px에서 320px으로 확장 */
+    flex: 1.2; /* Sidebar의 비율 */
+    max-width: 300px; /* Sidebar의 최대 너비 설정 */
     background-color: #f9f9f9;
-    padding: 15px; /* 내부 여백 유지 */
-    border-radius: 8px; /* 둥근 모서리 추가 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
-    position: sticky; /* 스크롤 시 고정 */
-    top: 20px; /* Sidebar 상단 위치 */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 20px;
   }
   .project {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 30px; /* 프로젝트 간 간격 */
+    margin-bottom: 30px;
   }
   .project img {
     max-width: 200px;
     height: auto;
-    margin-right: 20px; /* 이미지와 내용 간 간격 */
-    border-radius: 5px; /* 이미지 둥글게 */
+    margin-right: 20px;
+    border-radius: 5px;
   }
   .news-item {
     margin-bottom: 15px;
