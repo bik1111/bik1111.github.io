@@ -11,18 +11,21 @@ redirect_from:
   .container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    align-items: flex-start;
   }
   .main-content {
-    flex: 3; /* Main content takes up more space */
+    flex: 3; /* Main content takes up 3 parts of the container */
+    margin-right: 20px; /* Adds spacing between main-content and sidebar */
   }
   .sidebar {
-    flex: 1; /* Sidebar takes up less space */
-    max-width: 300px; /* Optional: Limit sidebar width */
-    background-color: #f9f9f9; /* Optional: Add a light background color */
+    flex: 1; /* Sidebar takes up 1 part of the container */
+    max-width: 300px;
+    background-color: #f9f9f9;
     padding: 10px;
-    border-radius: 5px; /* Optional: Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Makes the sidebar fixed when scrolling */
+    top: 20px; /* Adjusts the top spacing */
   }
   .project {
     display: flex;
@@ -35,21 +38,15 @@ redirect_from:
     margin-right: 20px;
   }
   .news-item {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 14px;
   }
 </style>
 
-Hello, I am Jincheol Jung. I am a student majoring in Software Convergence at Kyung Hee University. During my time as a research intern at the [System software LAB](https://ss.korea.ac.kr/), I conducted studies on container virtualization/orchestration and custom metric-based scaling. Additionally, I gained practical experience in real-time data processing through research on smart healthcare applications at the [BIGDATA LAB](http://allbigdata.khu.ac.kr/).
-
-My research interests include cloud/edge computing, learning-based resource allocation and optimization, and federated learning. I aim to build intelligent cloud platform systems capable of meeting the performance requirements of next-generation services such as autonomous driving, automation, and AR/VR.
-
-## Research Projects
-
 <div class="container">
   <!-- Main Content: Research Projects -->
   <div class="main-content">
-    <!-- First Project -->
+    <h2>Research Projects</h2>
     <div class="project">
       <img src="images/ACK-2024.png" alt="Metric-Based Scaling Project Image">
       <div class="project-content">
