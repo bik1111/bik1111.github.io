@@ -20,7 +20,7 @@ My research interests include cloud/edge computing, learning-based resource allo
     align-items: flex-start;
     gap: 40px; /* 간격 추가 */
     padding: 20px;
-    max-width: 1200px; /* 전체 컨테이너의 최대 너비 */
+    max-width: 1500px; /* 전체 컨테이너의 최대 너비 */
     margin: 0 auto;
   }
   .main-content {
