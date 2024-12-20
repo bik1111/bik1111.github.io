@@ -16,45 +16,55 @@ My research interests include cloud/edge computing, learning-based resource allo
 <style>
   .container {
     display: flex;
-    justify-content: flex-start; /* 컨텐츠와 사이드바가 나란히 배치 */
-    align-items: flex-start;
+    flex-direction: column; /* Research Projects는 세로로 쌓임 */
+    max-width: 1200px; /* 중앙 컨테이너의 최대 너비 */
+    margin: 0 auto; /* 화면 가운데 정렬 */
     padding: 20px;
-    max-width: 1600px;
-    margin: 0 auto;
-    gap: 20px; /* 메인 영역과 사이드바 간의 간격 */
   }
+
   .main-content {
-    flex: 4; /* 메인 영역에 더 많은 공간 할당 */
-    margin-right: 20px;
+    display: flex; /* 프로젝트들을 가로로 정렬 */
+    flex-wrap: wrap; /* 내용이 넘치면 다음 줄로 넘어감 */
+    gap: 30px; /* 프로젝트 간 간격 */
   }
-  .sidebar {
-    flex: 1; /* 사이드바를 맨 끝으로 배치 */
-    max-width: 300px;
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 20px;
-  }
+
   .project {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 40px;
+    flex: 1 1 calc(50% - 30px); /* 50% 너비로 설정 (간격 제외) */
+    margin-bottom: 30px; /* 각 프로젝트 간 간격 */
   }
+
   .project img {
     max-width: 200px;
     height: auto;
     margin-right: 20px;
-    border-radius: 5px;
+    border-radius: 5px; /* 이미지 둥근 모서리 */
   }
+
   .project-content {
-    flex: 1; /* 프로젝트 설명이 가능한 넓게 표시되도록 설정 */
+    flex: 1; /* 텍스트 영역이 넓게 표시되도록 설정 */
+  }
+
+  .sidebar {
+    position: fixed; /* 화면 오른쪽에 고정 */
+    top: 100px; /* 화면 상단에서의 거리 */
+    right: 20px; /* 화면 오른쪽에서의 거리 */
+    width: 300px; /* Sidebar 너비 */
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .news-item {
+    margin-bottom: 15px;
+    font-size: 14px;
   }
 </style>
 
 <div class="container">
-  <!-- Main Content: Research Projects -->
+  <h2>Research Projects</h2>
   <div class="main-content">
     <div class="project">
       <img src="images/ACK-2024.png" alt="Metric-Based Scaling Project Image">
@@ -112,27 +122,27 @@ My research interests include cloud/edge computing, learning-based resource allo
       </div>
     </div>
   </div>
+</div>
 
-  <!-- Sidebar: News -->
-  <div class="sidebar">
-    <h2>News</h2>
-    <div class="news-item">
-      <p><strong>Aug 2024:</strong> Joined RPI as Assistant Professor.</p>
-    </div>
-    <div class="news-item">
-      <p><strong>Aug 2024:</strong> Serving as TPC for Mobicom'25, IEEE MSN'24, and IEEE ICASSP'25.</p>
-    </div>
-    <div class="news-item">
-      <p><strong>Mar 2024:</strong> Presented BeamArmor at Hotmobile'24.</p>
-    </div>
-    <div class="news-item">
-      <p><strong>Mar 2023:</strong> Hotmobile'23 Best Poster Runner-up awarded on delay-phased array research.</p>
-    </div>
-    <div class="news-item">
-      <p><strong>Jan 2023:</strong> Infocom'23 paper accepted on mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks.</p>
-    </div>
-    <div class="news-item">
-      <p><strong>Jun 2022 - Aug 2022:</strong> Joined VMWare for summer internship. Worked on developing intelligent applications on VMWare RIC.</p>
-    </div>
+<!-- Sidebar -->
+<div class="sidebar">
+  <h2>News</h2>
+  <div class="news-item">
+    <p><strong>Aug 2024:</strong> Joined RPI as Assistant Professor.</p>
+  </div>
+  <div class="news-item">
+    <p><strong>Aug 2024:</strong> Serving as TPC for Mobicom'25, IEEE MSN'24, and IEEE ICASSP'25.</p>
+  </div>
+  <div class="news-item">
+    <p><strong>Mar 2024:</strong> Presented BeamArmor at Hotmobile'24.</p>
+  </div>
+  <div class="news-item">
+    <p><strong>Mar 2023:</strong> Hotmobile'23 Best Poster Runner-up awarded on delay-phased array research.</p>
+  </div>
+  <div class="news-item">
+    <p><strong>Jan 2023:</strong> Infocom'23 paper accepted on mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks.</p>
+  </div>
+  <div class="news-item">
+    <p><strong>Jun 2022 - Aug 2022:</strong> Joined VMWare for summer internship. Worked on developing intelligent applications on VMWare RIC.</p>
   </div>
 </div>
