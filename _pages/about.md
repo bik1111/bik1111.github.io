@@ -27,17 +27,19 @@ My research interests include cloud/edge computing, learning-based resource allo
     <div style="flex: 2; margin-left: 20px;">
       <h3>
         <strong>Performance Analysis of Metric-Based Scaling in Kubernetes Environments</strong>
-        <a href="https://kips.or.kr/ack2024/" target="_blank" style="color: orange; text-decoration: none;">[ICAIIC'25]</a>
+        <a href="https://kips.or.kr/ack2024/" target="_blank" style="color: orange; text-decoration: none;">[ACK'24]</a>
       </h3>
       <p>
         <strong>Jincheol Jung</strong>
       </p>
       <p>
+      <div class="small-text">
       This study compares CPU-based and custom metric-based scaling methods in Kubernetes, showing that custom
       metrics tailored to application needs can enhance scalability and efficiency. Findings reveal that, at certain scaling
       thresholds under dynamic network traffic, custom metrics reduce average latency by 85% to 87% compared to
       CPU-based scaling.
       </p>
+      </div>
       <div style="margin-top: 10px;">
         <a href="files/ACK-2024.pdf" class="btn" style="margin-right: 10px;">PDF</a>
         <a href="files/ACK_PPT.pdf" class="btn" style="margin-right: 10px;">SLIDES</a>
@@ -60,8 +62,10 @@ My research interests include cloud/edge computing, learning-based resource allo
         <strong>Jincheol Jung</strong>, Hongju Jeong, and Eui-Nam Huh
       </p>
       <p>
+      <div class="small-text">
       This study analyzes the performance of domain- specific Large Language Models (LLMs) for the medical field by integrating Retrieval-Augmented Generation (RAG) systems within a federated learning framework. Leveraging the inherent advantages of federated learning, such as preserving data privacy and enabling distributed computation, this research explores the integration of RAG systems with models trained under varying client configurations to optimize performance. Experimental results demonstrate that the federated learning-based models integrated with RAG systems consistently outperform their non- integrated counterparts across all evaluation metrics. This study highlights the potential of combining federated learning and RAG systems for developing domain-specific LLMs in the medical field, providing a scalable and privacy-preserving solution for enhancing text generation capabilities.
       </p>
+      </div>
       <div style="margin-top: 10px;">
         <a href="files/FL.pdf" class="btn" style="margin-right: 10px;">PDF</a>
       </div>
@@ -77,15 +81,17 @@ My research interests include cloud/edge computing, learning-based resource allo
     <div style="flex: 2; margin-left: 20px;">
       <h3>
         <strong>Performance Comparison Analysis of gRPC and zeroMQ for Efficient Library Selection in Chat Service Development</strong>
-        <a href="http://m.kiise.or.kr/academyEng/main/getContent.faEng?content_no=10&MENU_ID=020200" target="_blank" style="color: orange; text-decoration: none;">[ICAIIC'25]</a>
+        <a href="http://m.kiise.or.kr/academyEng/main/getContent.faEng?content_no=10&MENU_ID=020200" target="_blank" style="color: orange; text-decoration: none;">[KCC'25]</a>
       </h3>
       <p>
         <strong>Jincheol Jung</strong>, Sungwon Lee
       </p>
       <p>
+      <div class="small-text">
       In the current chat service market, real-time chat services based on open chat formats centered on specific topics and interests are gaining popularity, with the number of open chat users steadily
       increasing. Consequently, domestic IT companies are prioritizing the expansion of open chat functionalities as a core business strategy to invigorate community engagement. However, since the performance of chat services heavily depends on the messaging system used in development, companies face challenges in selecting a library that satisfies both service performance optimization and cost efficiency. This paper compares and analyzes the performance of gRPC and ZeroMQ, which are applicable in distributed system environments, from the perspective of chat service implementation. Through this paper, we aim to contribute to the design and implementation of more efficient chat services, ultimately enhancing user satisfaction
       </p>
+      </div>
       <div style="margin-top: 10px;">
         <a href="files/chat.pdf" class="btn" style="margin-right: 10px;">PDF</a>
         <a href="https://drive.google.com/file/d/1qC0XT3fMjy7yqZvTG9sH1nHAEo0xO28K/view?usp=sharing" class="btn" style="margin-right: 10px;">SLIDES</a>
