@@ -60,8 +60,7 @@ My research interests include cloud/edge computing, learning-based resource allo
         <strong>Jincheol Jung</strong>, Hongju Jeong, and Eui-Nam Huh
       </p>
       <p>
-      This study analyzes the performance of domain- specific Large Language Models (LLMs) for the medical field by integrating Retrieval-Augmented Generation (RAG) systems within a federated learning framework. Leveraging the inherent advantages of federated learning, such as preserving data privacy and enabling distributed computation, this research explores the integration of RAG systems with models trained under varying client configurations to optimize performance. Experimental results demonstrate that the federated learning-based models integrated with RAG systems consistently outperform their non- integrated counterparts across all evaluation metrics. This study highlights the potential of combining federated learning and RAG systems for developing domain-specific LLMs in the medical field, providing a scalable and privacy-preserving solution for enhancing text generation capabilities.
-      </p>
+      This study evaluates the performance of domain-specific Large Language Models (LLMs) for the medical field by integrating Retrieval-Augmented Generation (RAG) systems within a federated learning framework. By preserving data privacy and enabling distributed computation, federated learning enhances the effectiveness of RAG-integrated models under varying client configurations. Experimental results show consistent outperformance over non-integrated models, demonstrating a scalable, privacy-preserving approach to improving text generation for medical applications.      </p>
       <div style="margin-top: 10px;">
         <a href="files/FL.pdf" class="btn" style="margin-right: 10px;">PDF</a>
       </div>
@@ -77,14 +76,13 @@ My research interests include cloud/edge computing, learning-based resource allo
     <div style="flex: 2; margin-left: 20px;">
       <h3>
         <strong>Performance Comparison Analysis of gRPC and zeroMQ for Efficient Library Selection in Chat Service Development</strong>
-        <a href="http://m.kiise.or.kr/academyEng/main/getContent.faEng?content_no=10&MENU_ID=020200" target="_blank" style="color: orange; text-decoration: none;">[KCC'25]</a>
+        <a href="http://m.kiise.or.kr/academyEng/main/getContent.faEng?content_no=10&MENU_ID=020200" target="_blank" style="color: orange; text-decoration: none;">[KCC'24]</a>
       </h3>
       <p>
         <strong>Jincheol Jung</strong>, Sungwon Lee
       </p>
       <p>
-      In the current chat service market, real-time chat services based on open chat formats centered on specific topics and interests are gaining popularity, with the number of open chat users steadily
-      increasing. Consequently, domestic IT companies are prioritizing the expansion of open chat functionalities as a core business strategy to invigorate community engagement. However, since the performance of chat services heavily depends on the messaging system used in development, companies face challenges in selecting a library that satisfies both service performance optimization and cost efficiency. This paper compares and analyzes the performance of gRPC and ZeroMQ, which are applicable in distributed system environments, from the perspective of chat service implementation. Through this paper, we aim to contribute to the design and implementation of more efficient chat services, ultimately enhancing user satisfaction
+      In the growing chat service market, real-time open chat platforms focused on specific topics are gaining traction, prompting IT companies to enhance open chat features to boost community engagement. This paper compares gRPC and ZeroMQ for distributed chat service development, addressing the challenge of balancing performance and cost efficiency. Our findings aim to guide the design of efficient chat systems to improve user satisfaction.
       </p>
       <div style="margin-top: 10px;">
         <a href="files/chat.pdf" class="btn" style="margin-right: 10px;">PDF</a>
