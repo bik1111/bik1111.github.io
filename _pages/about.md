@@ -26,21 +26,24 @@ My research interests include cloud/edge computing, learning-based resource allo
     }
     h2 {
       color: #333;
+      margin-bottom: 20px;
     }
     .container {
       display: flex;
       justify-content: space-between;
+      gap: 20px; /* 간격 추가 */
     }
     .main-content {
-      width: 70%;
+      width: 70%; /* 메인 콘텐츠 폭 */
     }
     .sidebar {
-      width: 28%;
-      padding-left: 20px;
+      width: 28%; /* 사이드바 폭 */
+      padding: 10px;
+      border-left: 1px solid #ccc; /* 분리선 추가 */
     }
     .project {
       display: flex;
-      align-items: center;
+      align-items: flex-start; /* 위쪽으로 정렬 */
       margin-bottom: 40px;
     }
     .project img {
@@ -70,6 +73,11 @@ My research interests include cloud/edge computing, learning-based resource allo
     }
     .news-item {
       margin-bottom: 15px;
+    }
+    .news-item p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.4;
     }
   </style>
 </head>
