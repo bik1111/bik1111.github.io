@@ -16,44 +16,40 @@ My research interests include cloud/edge computing, learning-based resource allo
 <style>
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* 컨텐츠와 사이드바가 나란히 배치 */
     align-items: flex-start;
-    gap: 50px; /* 컨테이너 간격 추가 */
     padding: 20px;
-    max-width: 1600px; /* 전체 컨테이너의 최대 너비를 더 넓게 설정 */
+    max-width: 1600px;
     margin: 0 auto;
+    gap: 20px; /* 메인 영역과 사이드바 간의 간격 */
   }
   .main-content {
-    flex: 5; /* Main content takes up 5 parts of the container */
-    margin-right: 30px; /* 오른쪽 간격 추가 */
+    flex: 4; /* 메인 영역에 더 많은 공간 할당 */
+    margin-right: 20px;
   }
   .sidebar {
-    flex: 1; /* Sidebar takes up 1 part of the container */
+    flex: 1; /* 사이드바를 맨 끝으로 배치 */
     max-width: 300px;
     background-color: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky; /* 스크롤 시 고정 */
+    position: sticky;
     top: 20px;
   }
   .project {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 40px; /* 프로젝트 간 간격을 넓게 설정 */
+    margin-bottom: 40px;
   }
   .project img {
-    max-width: 180px; /* 이미지 크기 축소 */
+    max-width: 200px;
     height: auto;
     margin-right: 20px;
-    border-radius: 5px; /* 이미지 둥근 테두리 */
+    border-radius: 5px;
   }
   .project-content {
-    flex: 1; /* 설명 텍스트를 가능한 넓게 사용 */
-  }
-  .news-item {
-    margin-bottom: 15px;
-    font-size: 14px;
+    flex: 1; /* 프로젝트 설명이 가능한 넓게 표시되도록 설정 */
   }
 </style>
 
