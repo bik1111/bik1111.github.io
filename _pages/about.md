@@ -43,10 +43,10 @@ My research interests include cloud/edge computing, learning-based resource allo
     margin-bottom: 30px;
   }
   .project-content {
-    flex: 1; /* 프로젝트 설명이 최대한 넓게 퍼질 수 있도록 설정 */
+    flex: 3; /* 프로젝트 설명이 최대한 넓게 퍼질 수 있도록 설정 */
   }
   .project img {
-    max-width: 180px; /* 이미지 크기 축소 */
+    max-width: 220px; /* 이미지 크기 축소 */
     height: auto;
     margin-right: 20px;
     border-radius: 5px;
