@@ -7,8 +7,40 @@ redirect_from:
   - /about.html
 ---
 
-# Hello, I am Jincheol Jung
-I am a student majoring in Software Convergence at Kyung Hee University. During my time as a research intern at the [System software LAB](https://ss.korea.ac.kr/), I conducted studies on container virtualization/orchestration and custom metric-based scaling. Additionally, I gained practical experience in real-time data processing through research on smart healthcare applications at the [BIGDATA LAB](http://allbigdata.khu.ac.kr/).
+<style>
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .main-content {
+    flex: 3; /* Main content takes up more space */
+  }
+  .sidebar {
+    flex: 1; /* Sidebar takes up less space */
+    max-width: 300px; /* Optional: Limit sidebar width */
+    background-color: #f9f9f9; /* Optional: Add a light background color */
+    padding: 10px;
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  }
+  .project {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .project img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  .news-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+</style>
+
+Hello, I am Jincheol Jung. I am a student majoring in Software Convergence at Kyung Hee University. During my time as a research intern at the [System software LAB](https://ss.korea.ac.kr/), I conducted studies on container virtualization/orchestration and custom metric-based scaling. Additionally, I gained practical experience in real-time data processing through research on smart healthcare applications at the [BIGDATA LAB](http://allbigdata.khu.ac.kr/).
 
 My research interests include cloud/edge computing, learning-based resource allocation and optimization, and federated learning. I aim to build intelligent cloud platform systems capable of meeting the performance requirements of next-generation services such as autonomous driving, automation, and AR/VR.
 
@@ -19,9 +51,7 @@ My research interests include cloud/edge computing, learning-based resource allo
   <div class="main-content">
     <!-- First Project -->
     <div class="project">
-      <div style="flex: 1;">
-        <img src="images/ACK-2024.png" alt="Metric-Based Scaling Project Image">
-      </div>
+      <img src="images/ACK-2024.png" alt="Metric-Based Scaling Project Image">
       <div class="project-content">
         <h3>
           <strong>Performance Analysis of Metric-Based Scaling in Kubernetes Environments</strong>
@@ -38,10 +68,10 @@ My research interests include cloud/edge computing, learning-based resource allo
         </div>
       </div>
     </div>
+
+    <!-- Second Project -->
     <div class="project">
-      <div style="flex: 1;">
-        <img src="images/FL.png" alt="Federated Learning Project Image">
-      </div>
+      <img src="images/FL.png" alt="Federated Learning Project Image">
       <div class="project-content">
         <h3>
           <strong>Federated Learning and RAG Integration: A Scalable Approach for Medical Large Language Models</strong>
@@ -56,10 +86,10 @@ My research interests include cloud/edge computing, learning-based resource allo
         </div>
       </div>
     </div>
+
+    <!-- Third Project -->
     <div class="project">
-      <div style="flex: 1;">
-        <img src="images/chat.png" alt="Chat Project Image">
-      </div>
+      <img src="images/chat.png" alt="Chat Project Image">
       <div class="project-content">
         <h3>
           <strong>Performance Comparison Analysis of gRPC and zeroMQ for Efficient Library Selection in Chat Service Development</strong>
