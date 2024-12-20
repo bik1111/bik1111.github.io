@@ -18,18 +18,18 @@ My research interests include cloud/edge computing, learning-based resource allo
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px; /* 간격 설정 */
-    padding: 20px; /* 전체 컨테이너의 내부 여백 설정 */
-    max-width: 1200px; /* 전체 컨테이너의 최대 너비 설정 */
-    margin: 0 auto; /* 중앙 정렬 */
+    gap: 40px; /* 간격 추가 */
+    padding: 20px;
+    max-width: 1200px; /* 전체 컨테이너의 최대 너비 */
+    margin: 0 auto;
   }
   .main-content {
     flex: 4; /* Main content takes up 4 parts of the container */
-    margin-right: 20px; /* Adds spacing between main-content and sidebar */
+    margin-right: 20px;
   }
   .sidebar {
-    flex: 1.2; /* Sidebar의 비율 */
-    max-width: 300px; /* Sidebar의 최대 너비 설정 */
+    flex: 1; /* Sidebar takes up 1 part of the container */
+    max-width: 300px;
     background-color: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
@@ -42,8 +42,11 @@ My research interests include cloud/edge computing, learning-based resource allo
     align-items: flex-start;
     margin-bottom: 30px;
   }
+  .project-content {
+    flex: 1; /* 프로젝트 설명이 최대한 넓게 퍼질 수 있도록 설정 */
+  }
   .project img {
-    max-width: 200px;
+    max-width: 180px; /* 이미지 크기 축소 */
     height: auto;
     margin-right: 20px;
     border-radius: 5px;
