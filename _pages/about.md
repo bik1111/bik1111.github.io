@@ -17,8 +17,6 @@ My research interests include cloud/edge computing, learning-based resource allo
 <div class="container">
   <!-- Main Content: Research Projects -->
   <div class="main-content">
-    <h2>Research Projects</h2>
-
     <!-- First Project -->
     <div class="project">
       <div style="flex: 1;">
@@ -40,8 +38,6 @@ My research interests include cloud/edge computing, learning-based resource allo
         </div>
       </div>
     </div>
-
-    <!-- Second Project -->
     <div class="project">
       <div style="flex: 1;">
         <img src="images/FL.png" alt="Federated Learning Project Image">
@@ -60,8 +56,6 @@ My research interests include cloud/edge computing, learning-based resource allo
         </div>
       </div>
     </div>
-
-    <!-- Third Project -->
     <div class="project">
       <div style="flex: 1;">
         <img src="images/chat.png" alt="Chat Project Image">
