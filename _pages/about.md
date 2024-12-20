@@ -18,14 +18,14 @@ My research interests include cloud/edge computing, learning-based resource allo
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px; /* 간격 추가 */
+    gap: 50px; /* 컨테이너 간격 추가 */
     padding: 20px;
-    max-width: 1500px; /* 전체 컨테이너의 최대 너비 */
+    max-width: 1600px; /* 전체 컨테이너의 최대 너비를 더 넓게 설정 */
     margin: 0 auto;
   }
   .main-content {
-    flex: 4; /* Main content takes up 4 parts of the container */
-    margin-right: 20px;
+    flex: 5; /* Main content takes up 5 parts of the container */
+    margin-right: 30px; /* 오른쪽 간격 추가 */
   }
   .sidebar {
     flex: 1; /* Sidebar takes up 1 part of the container */
@@ -34,22 +34,22 @@ My research interests include cloud/edge computing, learning-based resource allo
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    position: sticky; /* 스크롤 시 고정 */
     top: 20px;
   }
   .project {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 30px;
-  }
-  .project-content {
-    flex: 3; /* 프로젝트 설명이 최대한 넓게 퍼질 수 있도록 설정 */
+    margin-bottom: 40px; /* 프로젝트 간 간격을 넓게 설정 */
   }
   .project img {
-    max-width: 220px; /* 이미지 크기 축소 */
+    max-width: 180px; /* 이미지 크기 축소 */
     height: auto;
     margin-right: 20px;
-    border-radius: 5px;
+    border-radius: 5px; /* 이미지 둥근 테두리 */
+  }
+  .project-content {
+    flex: 1; /* 설명 텍스트를 가능한 넓게 사용 */
   }
   .news-item {
     margin-bottom: 15px;
