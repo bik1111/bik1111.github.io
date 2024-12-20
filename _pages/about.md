@@ -18,32 +18,32 @@ My research interests include cloud/edge computing, learning-based resource allo
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px; /* 간격 추가 */
-    padding: 20px; /* 전체 컨테이너의 내부 여백 설정 */
+    gap: 30px; /* 기존 40px에서 간격을 줄여 여유 공간 확보 */
+    padding: 20px; /* 컨테이너 내부 여백 */
   }
   .main-content {
-    flex: 4; /* Main content takes up 4 parts of the container (기존 3에서 증가) */
-    margin-right: 20px; /* Adds spacing between main-content and sidebar */
+    flex: 3.5; /* Main content를 기존 3에서 3.5로 확장 */
+    margin-right: 15px; /* Main content와 Sidebar 간의 간격 축소 */
   }
   .sidebar {
-    flex: 0.8; /* Sidebar takes up less space (기존 1에서 감소) */
-    max-width: 280px; /* 사이드바의 최대 너비를 조정 */
+    flex: 1.2; /* Sidebar를 기존 1에서 1.2로 확장 */
+    max-width: 320px; /* Sidebar의 최대 너비를 기존 300px에서 320px으로 확장 */
     background-color: #f9f9f9;
-    padding: 15px; /* 내부 여백 추가 */
+    padding: 15px; /* 내부 여백 유지 */
     border-radius: 8px; /* 둥근 모서리 추가 */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
-    position: sticky; /* Makes the sidebar fixed when scrolling */
-    top: 20px; /* Adjusts the top spacing */
+    position: sticky; /* 스크롤 시 고정 */
+    top: 20px; /* Sidebar 상단 위치 */
   }
   .project {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 30px; /* 프로젝트 간 간격을 늘림 */
+    margin-bottom: 30px; /* 프로젝트 간 간격 */
   }
   .project img {
     max-width: 200px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 20px; /* 이미지와 내용 간 간격 */
     border-radius: 5px; /* 이미지 둥글게 */
   }
   .news-item {
