@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am Jincheol Jung, a student majoring in Software Convergence at Kyung Hee University. I have worked as a research intern in the [System software LAB](https://ss.korea.ac.kr/), where I conducted research on container virtualization, cloud orchestration, and custom metric-based scaling techniques. Additionally, I gained hands-on experience in real-time data processing through research in the [BIGDATA LAB]( http://allbigdata.khu.ac.kr/) on smart healthcare applications.
+Hello, I am Jincheol Jung, a student majoring in Software Convergence at Kyung Hee University. During my time as a research intern at the [System software LAB](https://ss.korea.ac.kr/), I conducted studies on container virtualization/orchestration and custom metric-based scaling. Additionally, I gained practical experience in real-time data processing through research on smart healthcare applications at the [BIGDATA LAB]( http://allbigdata.khu.ac.kr/)
 
-My research focuses on optimizing resource management across diverse application environments using federated learning, with the aim of enhancing cloud system performance and providing efficient scaling solutions. In the future, I hope to contribute to solving real-world problems in cloud-based distributed systems, making a positive impact in fields like energy and healthcare. Building on these experiences and my vision, I am eager to leverage advanced technologies to drive meaningful change.
-
-Recent News
-======
-**Apr 2, 2024**
+My research interests include cloud/edge computing, learning-based resource allocation and optimization, and federated learning. I aim to build intelligent cloud platform systems capable of meeting the performance requirements of next-generation services such as autonomous driving, automation, and AR/VR.
