@@ -100,6 +100,7 @@ My research interests include cloud/edge computing, learning-based resource allo
         </p>
         <div class="project-buttons">
           <a href="files/FL.pdf" class="btn">PDF</a>
+          <a href="https://arxiv.org/abs/2412.13720" class="btn">LINK</a>
         </div>
       </div>
     </div>
