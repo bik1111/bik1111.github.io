@@ -128,19 +128,19 @@ My research interests include cloud/edge computing, learning-based resource allo
   <div class="sidebar">
     <h2>News</h2>
     <div class="news-item">
-      <p><strong> 2025:</strong> ICAIIC'25 paper accepted on Federated Learning and RAG Integration: A Scalable Approach for Medical Large Language Models</p>
+      <p><strong>Jan 2025:</strong> ICAIIC'25 paper accepted on Federated Learning and RAG Integration: A Scalable Approach for Medical Large Language Models</p>
     </div>
     <div class="news-item">
       <p><strong>Nov 2024:</strong> Presented Performance Analysis of Metric-Based Scaling at ACK'24 </p>
     </div>
     <div class="news-item">
-      <p><strong>June 2024:</strong> Presented gRPC and ZeroMQ Comparison for Chat Services at KIISE'24. </p>
+      <p><strong>June 2024:</strong> Presented gRPC and ZeroMQ Comparison for Chat Services at KCC'24. </p>
     </div>
     <div class="news-item">
-      <p><strong>Dec 2023 - Sep 2024:</strong> Joined the System Software Lab as an intern. Worked on projects related to container orchestration and resource allocation/scaling. </p>
+      <p><strong>Dec 2023 - Sep 2024:</strong> Joined the System Software Lab at Korea University as an intern. Worked on projects related to container orchestration and resource allocation/scaling. </p>
     </div>
     <div class="news-item">
-      <p><strong>Dec 2022 - Feb 2023:</strong> Joined the BIGDATA Lab as an intern. Worked on data extraction and analysis using Azure Kinect DK. </p>
+      <p><strong>Dec 2022 - Feb 2023:</strong> Joined the BIGDATA Lab as an intern at Kyung Hee University. Worked on data extraction and analysis using Azure Kinect DK. </p>
     </div>
   </div>
 </div>
